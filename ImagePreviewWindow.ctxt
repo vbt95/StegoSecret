@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 #BlueJ class context
 comment0.params=file
 comment0.target=ImagePreviewWindow(java.io.File)
+comment0.text=Constructor\ to\ set\ up\ layout\ and\ provide\ preview\ of\ image\r\n\ @param\ file\ the\ image\ file\ whose\ preview\ is\ to\ be\ viewed\r\n
 numComments=1
-=======
-#BlueJ class context
-comment0.params=file
-comment0.target=ImagePreviewWindow(java.io.File)
-numComments=1
->>>>>>> 1864ca7e4c28bed3c9b3029dbb362a3221f133de

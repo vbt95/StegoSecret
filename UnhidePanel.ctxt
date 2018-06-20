@@ -1,43 +1,29 @@
-<<<<<<< HEAD
 #BlueJ class context
 comment0.params=
 comment0.target=UnhidePanel()
+comment0.text=\ Constructor\ to\ set\ up\ the\ panel\r\n\ \ Initializes\ various\ variables\ and\ sets\ up\ layout\r\n\ \r\n
 comment1.params=ae
 comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment1.text=\r\n\ Action\ listener\ for\ buttons\r\n
 comment2.params=
 comment2.target=void\ reset()
+comment2.text=\r\n\ To\ reset\ all\ the\ fields\ of\ unhide\ panel\r\n
 comment3.params=f
 comment3.target=java.lang.String\ getPath(java.io.File)
+comment3.text=Returns\ the\ path\ of\ file\r\n\ @param\ f\ the\ file\ who\ path\ is\ required\r\n\ \r\n
 comment4.params=f
 comment4.target=java.lang.String\ getName(java.io.File)
+comment4.text=Returns\ the\ name\ of\ file\ without\ it's\ extension\ or\ type\r\n\ @param\ f\ the\ file\ which\ name\ we\ needs\r\n\ \r\n\ example\:\ return\ scenery\ if\ the\ file\ actual\ name\ is\ scenery.jpg\ \r\n
 comment5.params=f
 comment5.target=java.lang.String\ getExtension(java.io.File)
+comment5.text=Returns\ the\ extension\ of\ \ file\r\n\ @param\ f\ the\ file\ whose\ extension\ is\ required\r\n
 comment6.params=
 comment6.target=java.lang.String\ getPass()
+comment6.text=\r\n\ Returns\ the\ password\ entered\ in\ provided\ password\ field\r\n\ private\ type\ so\ that\ no\ one\ get\ access\ it\ from\ outside\r\n
 comment7.params=m
 comment7.target=java.lang.String\ getMessage(java.lang.String)
+comment7.text=\r\n\ Returns\ the\ actual\ message\ from\ the\ text\ extracted\ earlier\ from\ file\r\n\ @param\ m\ the\ text\ extracted\ from\ file\ using\ steganography\r\n\ private\ type\ so\ that\ no\ one\ get\ access\ it\ from\ outside\r\n
 comment8.params=m
 comment8.target=java.lang.String\ getPassWord(java.lang.String)
+comment8.text=\r\n\ Returns\ the\ password\ present\ in\ the\ text\ extracted\ earlier\ from\ file\r\n\ @param\ m\ the\ text\ extracted\ from\ file\ using\ steganography\r\n\ private\ type\ so\ that\ no\ one\ get\ access\ it\ from\ outside\r\n
 numComments=9
-=======
-#BlueJ class context
-comment0.params=
-comment0.target=UnhidePanel()
-comment1.params=ae
-comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
-comment2.params=
-comment2.target=void\ reset()
-comment3.params=f
-comment3.target=java.lang.String\ getPath(java.io.File)
-comment4.params=f
-comment4.target=java.lang.String\ getName(java.io.File)
-comment5.params=f
-comment5.target=java.lang.String\ getExtension(java.io.File)
-comment6.params=
-comment6.target=java.lang.String\ getPass()
-comment7.params=m
-comment7.target=java.lang.String\ getMessage(java.lang.String)
-comment8.params=m
-comment8.target=java.lang.String\ getPassWord(java.lang.String)
-numComments=9
->>>>>>> 1864ca7e4c28bed3c9b3029dbb362a3221f133de

@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 #BlueJ class context
 comment0.params=
 comment0.target=StartPanel()
+comment0.text=\r\n\ Constructor\ for\ the\ starting\ panel\r\n\ Initializes\ variables\ and\ sets\ up\ layout\r\n
 numComments=1
-=======
-#BlueJ class context
-comment0.params=
-comment0.target=StartPanel()
-numComments=1
->>>>>>> 1864ca7e4c28bed3c9b3029dbb362a3221f133de
