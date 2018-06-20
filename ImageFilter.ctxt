@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #BlueJ class context
 comment0.params=
 comment0.target=java.lang.String\ getDescription()
@@ -6,3 +7,13 @@ comment1.target=boolean\ accept(java.io.File)
 comment2.params=f
 comment2.target=java.lang.String\ getExtension(java.io.File)
 numComments=3
+=======
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getDescription()
+comment1.params=f
+comment1.target=boolean\ accept(java.io.File)
+comment2.params=f
+comment2.target=java.lang.String\ getExtension(java.io.File)
+numComments=3
+>>>>>>> 1864ca7e4c28bed3c9b3029dbb362a3221f133de

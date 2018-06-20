@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #BlueJ class context
 comment0.params=args
 comment0.target=void\ main(java.lang.String[])
@@ -22,3 +23,29 @@ comment8.target=void\ actionPerformed(java.awt.event.ActionEvent)
 comment9.params=evt
 comment9.target=void\ actionPerformed(java.awt.event.ActionEvent)
 numComments=10
+=======
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ @param\ args\ the\ command\ line\ arguments\r\n
+comment1.params=
+comment1.target=void\ run()
+comment2.params=
+comment2.target=Stego()
+comment2.text=Constructor
+comment3.params=
+comment3.target=void\ initComponents()
+comment4.params=ae
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=
+comment5.target=void\ hidePanel()
+comment6.params=
+comment6.target=void\ unhidePanel()
+comment7.params=
+comment7.target=void\ help()
+comment8.params=evt
+comment8.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment9.params=evt
+comment9.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=10
+>>>>>>> 1864ca7e4c28bed3c9b3029dbb362a3221f133de

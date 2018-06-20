@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 #BlueJ class context
 comment0.params=file
 comment0.target=ImagePreviewWindow(java.io.File)
 numComments=1
+=======
+#BlueJ class context
+comment0.params=file
+comment0.target=ImagePreviewWindow(java.io.File)
+numComments=1
+>>>>>>> 1864ca7e4c28bed3c9b3029dbb362a3221f133de

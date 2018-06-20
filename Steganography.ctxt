@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #BlueJ class context
 comment0.params=
 comment0.target=Steganography()
@@ -36,3 +37,43 @@ comment9.params=i
 comment9.target=byte[]\ bit_conversion(int)
 comment9.text=\r\nGernerates\ proper\ byte\ format\ of\ an\ integer\r\n@param\ i\ The\ integer\ to\ convert\r\n@return\ Returns\ a\ byte[4]\ array\ converting\ the\ supplied\ integer\ into\ bytes\r\n
 numComments=12
+=======
+#BlueJ class context
+comment0.params=
+comment0.target=Steganography()
+comment0.text=\r\nSteganography\ Empty\ Constructor\r\n
+comment1.params=path\ original\ ext1\ stegan\ message
+comment1.target=boolean\ encode(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\nEncrypt\ an\ image\ with\ text,\ the\ output\ file\ will\ be\ of\ type\ .png\r\n@param\ path\ \ \ \ \ \ \ \ The\ path\ (folder)\ containing\ the\ image\ to\ modify\r\n@param\ original\ \ \ The\ name\ of\ the\ image\ to\ modify\r\n@param\ ext1\ \ \ \ \ \ \ \ \ The\ extension\ type\ of\ the\ image\ to\ modify\ (jpg,\ png)\r\n@param\ stegan\ \ \ The\ output\ name\ of\ the\ file\r\n@param\ message\ \ The\ text\ to\ hide\ in\ the\ image\r\n@param\ type\ \ \ \ \ integer\ representing\ either\ basic\ or\ advanced\ encoding\r\n
+comment10.params=image\ addition\ offset
+comment10.target=byte[]\ encode_text(byte[],\ byte[],\ int)
+comment10.text=\r\nEncode\ an\ array\ of\ bytes\ into\ another\ array\ of\ bytes\ at\ a\ supplied\ offset\r\n@param\ image\ \ \ Array\ of\ data\ representing\ an\ image\r\n@param\ addition\ Array\ of\ data\ to\ add\ to\ the\ supplied\ image\ data\ array\r\n@param\ offset\ \ \ The\ offset\ into\ the\ image\ array\ to\ add\ the\ addition\ data\r\n@return\ Returns\ data\ Array\ of\ merged\ image\ and\ addition\ data\r\n
+comment11.params=image
+comment11.target=byte[]\ decode_text(byte[])
+comment11.text=\r\nRetrieves\ hidden\ text\ from\ an\ image\r\n@param\ image\ Array\ of\ data,\ representing\ an\ image\r\n@return\ Array\ of\ data\ which\ contains\ the\ hidden\ text\r\n
+comment2.params=path\ name
+comment2.target=java.lang.String\ decode(java.lang.String,\ java.lang.String)
+comment2.text=\r\nDecrypt\ assumes\ the\ image\ being\ used\ is\ of\ type\ .png,\ extracts\ the\ hidden\ text\ from\ an\ image\r\n@param\ path\ \ \ The\ path\ (folder)\ containing\ the\ image\ to\ extract\ the\ message\ from\r\n@param\ name\ The\ name\ of\ the\ image\ to\ extract\ the\ message\ from\r\n@param\ type\ integer\ representing\ either\ basic\ or\ advanced\ encoding\r\n
+comment3.params=path\ name\ ext
+comment3.target=java.lang.String\ image_path(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.text=\r\nReturns\ the\ complete\ path\ of\ a\ file,\ in\ the\ form\:\ path\\name.ext\r\n@param\ path\ \ \ The\ path\ (folder)\ of\ the\ file\r\n@param\ name\ The\ name\ of\ the\ file\r\n@param\ ext\ \ \ \ \ \ The\ extension\ of\ the\ file\r\n@return\ A\ String\ representing\ the\ complete\ path\ of\ a\ file\r\n
+comment4.params=f
+comment4.target=java.awt.image.BufferedImage\ getImage(java.lang.String)
+comment4.text=\r\nGet\ method\ to\ return\ an\ image\ file\r\n@param\ f\ The\ complete\ path\ name\ of\ the\ image.\r\n@return\ A\ BufferedImage\ of\ the\ supplied\ file\ path\r\n@see\ \ Steganography.image_path\r\n
+comment5.params=image\ file\ ext
+comment5.target=boolean\ setImage(java.awt.image.BufferedImage,\ java.io.File,\ java.lang.String)
+comment5.text=\r\nSet\ method\ to\ save\ an\ image\ file\r\n@param\ image\ The\ image\ file\ to\ save\r\n@param\ file\ \ \ \ \ File\ \ to\ save\ the\ image\ to\r\n@param\ ext\ \ \ \ \ \ The\ extension\ and\ thus\ format\ of\ the\ file\ to\ be\ saved\r\n@return\ Returns\ true\ if\ the\ save\ is\ succesful\r\n
+comment6.params=image\ text
+comment6.target=java.awt.image.BufferedImage\ add_text(java.awt.image.BufferedImage,\ java.lang.String)
+comment6.text=\r\nHandles\ the\ addition\ of\ text\ into\ an\ image\r\n@param\ image\ The\ image\ to\ add\ hidden\ text\ to\r\n@param\ text\ \ \ \ The\ text\ to\ hide\ in\ the\ image\r\n@return\ Returns\ the\ image\ with\ the\ text\ embedded\ in\ it\r\n
+comment7.params=image
+comment7.target=java.awt.image.BufferedImage\ user_space(java.awt.image.BufferedImage)
+comment7.text=\r\nCreates\ a\ user\ space\ version\ of\ a\ Buffered\ Image,\ for\ editing\ and\ saving\ bytes\r\n@param\ image\ The\ image\ to\ put\ into\ user\ space,\ removes\ compression\ interferences\r\n@return\ The\ user\ space\ version\ of\ the\ supplied\ image\r\n
+comment8.params=image
+comment8.target=byte[]\ get_byte_data(java.awt.image.BufferedImage)
+comment8.text=\r\nGets\ the\ byte\ array\ of\ an\ image\r\n@param\ image\ The\ image\ to\ get\ byte\ data\ from\r\n@return\ Returns\ the\ byte\ array\ of\ the\ image\ supplied\r\n@see\ Raster\r\n@see\ WritableRaster\r\n@see\ DataBufferByte\r\n
+comment9.params=i
+comment9.target=byte[]\ bit_conversion(int)
+comment9.text=\r\nGernerates\ proper\ byte\ format\ of\ an\ integer\r\n@param\ i\ The\ integer\ to\ convert\r\n@return\ Returns\ a\ byte[4]\ array\ converting\ the\ supplied\ integer\ into\ bytes\r\n
+numComments=12
+>>>>>>> 1864ca7e4c28bed3c9b3029dbb362a3221f133de
