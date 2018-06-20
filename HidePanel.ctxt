@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HidePanel()
+comment1.params=ae
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=
+comment2.target=void\ reset()
+comment3.params=f
+comment3.target=java.lang.String\ getPath(java.io.File)
+comment4.params=f
+comment4.target=java.lang.String\ getName(java.io.File)
+comment5.params=f
+comment5.target=java.lang.String\ getExtension(java.io.File)
+comment6.params=
+comment6.target=java.lang.String\ getPass()
+comment7.params=
+comment7.target=java.lang.String\ getRepass()
+numComments=8
